@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DemoControl/Debug
+/DemoControl/x64/Debug
+/DemoUI/bin
+/DemoUI/obj
+/Debug/DemoControl
+/x64/Debug/DemoControl
+/ipch/DEMOCONTROL-353285c7
+/Demo.sdf
+/Demo.opensdf
+/DemoUI/DemoUI_TemporaryKey.pfx

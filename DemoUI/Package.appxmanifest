@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="91548c84-8f35-4c8f-baea-c0c320afc8c5" Publisher="CN=Alterego" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Rust Demo</DisplayName>
+    <PublisherDisplayName>Progtools</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="DemoUI.App">
+      <m2:VisualElements DisplayName="Rust Demo" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Very basic application to show how a Rust library can be integrated into a WinRT application." ForegroundText="light" BackgroundColor="#464646" ToastCapable="false">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

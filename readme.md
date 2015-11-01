@@ -1,0 +1,1 @@
+An example on how to use Rust as shared library in WinRT applications.
