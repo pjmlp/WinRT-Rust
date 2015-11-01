@@ -1,7 +1,6 @@
 [package]
 name = "rustlib"
 version = "0.1.0"
-authors = ["pjmlp <pjmlp@progtools.org>"]
 
 [lib]
 name = "rustlib"
