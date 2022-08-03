@@ -18,5 +18,7 @@ After entering some text, the function gets called and its result is displayed:
 
 # Future plans
 
-If Rust eventually supports the creation of WinRT components, the C++/CX wrapper code can
-be replaced by pure Rust code.
+~~If Rust eventually supports the creation of WinRT components, the C++/CX wrapper code can
+be replaced by pure Rust code.~~
+
+As .NET Native isn't getting any updates beyond .NET Core 3, C++/CX got replaced with C++/WinRT, and Rust/WinRT is still work in progress, I am archiving this repo.
